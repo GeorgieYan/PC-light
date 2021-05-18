@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+
+int main()
+{
+    long long n, a, b;
+    while(1){
+        if(n == 0){
+            break;
+        }
+        scanf("%lld", &n);
+        a = sqrt(n);
+        b = a*a;
+
+        if(b == n){
+            printf("yes\n");
+        }
+        else{
+            printf("no\n");
+        }
+    }
+    return(0);
+}
